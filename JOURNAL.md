@@ -6,8 +6,23 @@ created_at: "2024-05-26"
 ---
 
 
+## May 27th - Git clone
+A lot more research research on existing DIY Camera Gimbals today! The main takeaway is that the manjority are actually **two-handle gimbals**. Why is that?
+
+Once you've moved from light cameras such as a phone or action camera, they're a little difficult to hold in one hand, particularly if they're balanced *above* the level your hands are at (you can think of this like trying to hold a metal pole at a 45° angle in front of your body). Now when you switch to not only being able to hold it directly *below* your hand-level, as well as using *two* hands, it's a whole lot easier.
+
+Spent today looking at basically all the existing DIY gimbals and their components, in summary:
+- For non-action camera gimbals, two-handle is the way to go
+- The MCU/ESC board that most projects use, the SBG32 (or an older version) are MUCH too expensive (approx. $300 AUD for one), so I'll have to design my own.
+
+Will begin component selection (primarily the motors to use, as well as what the frame will be made of) tommorow to decide on the requirements for the MCU/ESC. This should be slightly easier than going at it with no experience due to some prior experience designing drones.
+
+I'll also use this time to note, the name of the project isn't exactly accurate as I'm designing this for a mirrorless camera... Full Frame Camera Gimbal or something of the sort may have been a more accurate name. Looking forward to tomorrow!
+
+**Time spent: 3hrs**
+
+
 ## May 26th - Init
-[@ConfusedHello](https://github.com/ConfusedHello)
 Today was primarily determining the viability and establishing the general idea for the project.
 
 As I'm somewhat of a hobbyist photographer, I've considered the idea of building my own camera gimbal for videography as even second-hand on Facebook Marketplace they can be a few hundred AUD. However, I've never particularly had the opportunity (or funds) to attempt it ~~spent all my money on cameras~~.
@@ -28,4 +43,4 @@ To summarise:
 
 Tomorrow's journal will probably not be as detailed as this one, definately spent too long on it.
 
-**Time spent: 4hr**
+**Time spent: 4hrs**
