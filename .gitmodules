@@ -1,0 +1,3 @@
+[submodule "src/controller/STorM32-NT"]
+	path = src/controller/STorM32-NT
+	url = https://github.com/ConfusedHello/STorM32-NT
