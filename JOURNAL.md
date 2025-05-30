@@ -6,17 +6,46 @@ created_at: "2024-05-26"
 ---
 
 
-## May 29th - Git commit
+## May 30th - Git commit
+So much designing today! Started off by creating a quick reference model for the tube clamp I managed to find.
+
+![Tube clamp 3d model](/assets/Tube_Clamp.png)
+
+Next I moved onto a mount for the motors, here's where I realised that the motor controller modules that were designed with the in-built encoder in mind had non-optimal placement of the plug - it was on the side of the board with the encoder. So it's time for some KiCad-ing! Here's the end result of the motor controller / encoder PCB.
+
+![Image of Motor controller PCB](/assets/Motor_Controller_KiCad.png)
+*More details on these boards can be found in my repo [here](https://github.com/ConfusedHello/STorM32-NT/tree/main/modules/Motor).*
+
+My next job was finishing up the design for the motor mount in Fusion360. The plates will be cut from a 3mm sheet of Carbon Fibre, allowing for a perfect distace between the magnet and the encoder (0.5-3mm).
+
+![Image of mount for the Motor controller PCB](/assets/Motor_Mount.png)
+
+Nice! Now we have the basic component for mounting our motors to! Next, let's work on the mounting plate for the *other* side of the motor (the side that spins) and start putting a few things together!
+
+After designing a mount for both sides of the yaw motor, let's try having a quick look at what we're up to.
+
+![Image of gimbal handle](/assets/Frame_Prog1.png)
+
+Not bad for the day! Tomorrow will focus on continuing to build on the gimbal design,as well as the camera mount + IMU.
+
+**Time spent: 10hrs**
+
+
+## May 29th - Git add
 Finally ready to move onto some designing! After some more research I landed on the GM5208-12 motor. It's the standard motor from iPower's GM5 lineup, albiet not particularly cheap at approx $60AUD each ($38.66USD) it's the lineup made for gimbals and suits the job well. I'll add these to the newly-made [BOM](/src/frame/README.md).
 
-After a quick search online, I was able to find the dimensions for the motor online
+After a quick search online, I was able to find the dimensions for the motor online.
+
 ![Image of the dimensions of the GM5208 gimbal motor](/assets/GM5208_12_Dimensions_Reference.png)
 
-Next I deep-dived into the [STorM32 BGC project](https://github.com/olliw42/storm32bgc/), after looking through the documentation as well as the schematics of the components I settled on the T-STorM32 architecture and created the first draft of the gimbal layout and how it would be wired up
+Next I deep-dived into the [STorM32 BGC project](https://github.com/olliw42/storm32bgc/), after looking through the documentation as well as the schematics of the components I settled on the T-STorM32 architecture and created the first draft of the gimbal layout and how it would be wired up.
+
 ![Draft of the gimbal design with labled components](/assets/Gimbal_Layout_Initial.png)
+
 ![Draft of the gimbal wiring](/assets/Gimbal_Layout_Wiring_Initial.png)
 
-After some more planning for how the motor controllers would be mounted..
+After some more planning for how the motor controllers would be mounted...
+
 ![Draft of the motor controller mount](/assets/Gimbal_Layout_Motor_PC_Mount_Initial.png)
 
 And for some quick ideas:
@@ -56,10 +85,12 @@ Today was primarily determining the viability and establishing the general idea 
 
 As I'm somewhat of a hobbyist photographer, I've considered the idea of building my own camera gimbal for videography as even second-hand on Facebook Marketplace they can be a few hundred AUD. However, I've never particularly had the opportunity (or funds) to attempt it ~~spent all my money on cameras~~.
 
-After some debate and sanity-checking my knowledge of a few DJI gimbals, we can now categorize the majority of consumer camera gimbals as either **single-handle handheld gimbals** or **two-handle handheld gimbals**. Images below, respectively:
+After some debate and sanity-checking my knowledge of a few DJI gimbals, we can now categorize the majority of consumer camera gimbals as either **single-handle handheld gimbals** or **two-handle handheld gimbals**. Images below, respectively.
+
 ![Image with showing two different types of camera gimbals](/assets/Gimbal_Example_Forms.jpg)
 
-Now an observant individual may have realised both these form factors have one thing in common. They both stabilise the camera with 3 axis - **pitch**, **roll**, and **yaw**. Diagram by Horia Ionescu below:
+Now an observant individual may have realised both these form factors have one thing in common. They both stabilise the camera with 3 axis - **pitch**, **roll**, and **yaw**. Diagram by Horia Ionescu.
+
 ![Diagram of 6 Degrees of Freedom](https://upload.wikimedia.org/wikipedia/commons/f/fa/6DOF_en.jpg)
 
 So while single-handle gimbals are easier to use for phones and your standard cameras (such as the Ronin S supporting up to 3.6kg), you'll never see one on a film set where wheeled steadi-cams, sholder rigs, and other massive gimbals are used.
