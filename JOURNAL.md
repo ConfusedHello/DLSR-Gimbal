@@ -5,6 +5,11 @@ description: "A DIY Gimbal for a DSLR Camera!"
 created_at: "2024-05-26"
 ---
 
+## May 31st...
+Worked on some modelling and re-thought the 90° joints. Will elaborate tomorrow.
+
+**Time spent: 2hrs**
+
 
 ## May 30th - Git commit
 So much designing today! Started off by creating a quick reference model for the tube clamp I managed to find.
@@ -32,7 +37,7 @@ Not bad for the day! Tomorrow will focus on continuing to build on the gimbal de
 
 
 ## May 29th - Git add
-Finally ready to move onto some designing! After some more research I landed on the GM5208-12 motor. It's the standard motor from iPower's GM5 lineup, albiet not particularly cheap at approx $60AUD each ($38.66USD) it's the lineup made for gimbals and suits the job well. I'll add these to the newly-made [BOM](/src/frame/README.md).
+Finally ready to move onto some designing! After some more research I landed on the GM5208-12/24 motor. It's the standard motor from iPower's GM5 lineup, albiet not particularly cheap at approx $60AUD each ($38.66USD) it's the lineup made for gimbals and suits the job well. I'll add these to the newly-made [BOM](/src/frame/README.md).
 
 After a quick search online, I was able to find the dimensions for the motor online.
 
