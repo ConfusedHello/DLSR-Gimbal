@@ -5,6 +5,16 @@ description: "A DIY Gimbal for a DSLR Camera!"
 created_at: "2024-05-26"
 ---
 
+## June 1st - Git push
+Happy April fools! Wait no it's June... Anyways, Started off today by redoing the base mounts for the motors, I decided the double-clamp was a bit excessive even if I erred on the side of caution. I also realised, the 90° could also be easily accomplished using the same method as the motor mounts! So, after a few hours of work - the gimbal modeling is yet another step closer to being done! Also spent some time sanity-checking some carbon fibre panel/tube prices while I was at it. 
+
+![Unfinished gimbal 3d model](/assets/Frame_Prog2.png)
+
+Tomorrow will focus on the camera mouting plate (should be pretty easy) and the joint for the other side (still don't know how that'll work to be honest). In the coming days I'm planning on finalising the PCBs as well as confirming a BOM + price. Project is over going pretty well and *[I'm feeling good](https://youtu.be/oHRNrgDIJfo?t=40)!*
+
+**Time spent: 5hrs**
+
+
 ## May 31st...
 Worked on some modelling and re-thought the 90° joints. Will elaborate tomorrow.
 
