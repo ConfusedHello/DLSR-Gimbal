@@ -5,6 +5,17 @@ description: "A DIY Gimbal for a DSLR Camera!"
 created_at: "2024-05-26"
 ---
 
+
+## June 2nd - Uhm...
+Well today was one heck of a day! Frame is done, and it's [BOM](https://github.com/ConfusedHello/DLSR-Gimbal/blob/main/src/frame) has been roughed out! Tommorrow I'll most likely spend a little bit of time on the PCB BOMs but I don't expect too much time to go into it. Now behold, the completed frame in all it's non-rendered glory!
+
+![Image of the completed gimbal frame](/assets/Frame_Prog3.png)
+
+Just one issue however. When I started building the project, the clamps I found (literally only one listing on Aliexpress) were apparently $1.5 each (I even added them to cart and went to pay just to check). Unfortunatly they're now listed at $7.50 for 2??? Meaning I need about $160AUD of clamps?
+
+Update from 2 hours later: found 1 other listing for 1.7AUD for one? Totals to $74.8 - a lot more reasonable. PCB work continues tomorrow!
+
+
 ## June 1st - Git push
 Happy April fools! Wait no it's June... Anyways, Started off today by redoing the base mounts for the motors, I decided the double-clamp was a bit excessive even if I erred on the side of caution. I also realised, the 90° could also be easily accomplished using the same method as the motor mounts! So, after a few hours of work - the gimbal modeling is yet another step closer to being done! Also spent some time sanity-checking some carbon fibre panel/tube prices while I was at it. 
 
@@ -47,7 +58,7 @@ Not bad for the day! Tomorrow will focus on continuing to build on the gimbal de
 
 
 ## May 29th - Git add
-Finally ready to move onto some designing! After some more research I landed on the GM5208-12/24 motor. It's the standard motor from iPower's GM5 lineup, albiet not particularly cheap at approx $60AUD each ($38.66USD) it's the lineup made for gimbals and suits the job well. I'll add these to the newly-made [BOM](/src/frame/README.md).
+Finally ready to move onto some designing! After some more research I landed on the GM5208-12/24 motor. It's the standard motor from iPower's GM5 lineup, albiet not particularly cheap at approx $60AUD each ($38.66USD) it's the lineup made for gimbals and suits the job well. I'll add these to the newly-made [BOM](https://github.com/ConfusedHello/DLSR-Gimbal/blob/main/src/frame).
 
 After a quick search online, I was able to find the dimensions for the motor online.
 
