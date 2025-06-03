@@ -1,19 +1,29 @@
 ---
 title: "DLSR Gimbal"
 author: "ConfusedHello"
-description: "A DIY Gimbal for a DSLR Camera!"
+description: "A DIY Gimbal for a Full Frame Camera!"
 created_at: "2024-05-26"
 ---
 
+<!-- 
+## June 4th - Git merge
 
-## June 2nd - Uhm...
+**Time spent: ** -->
+
+
+## June 3rd - ...
+**Time spent: 2hrs**
+
+## June 2nd - Git branch
 Well today was one heck of a day! Frame is done, and it's [BOM](https://github.com/ConfusedHello/DLSR-Gimbal/blob/main/src/frame) has been roughed out! Tommorrow I'll most likely spend a little bit of time on the PCB BOMs but I don't expect too much time to go into it. Now behold, the completed frame in all it's non-rendered glory!
 
 ![Image of the completed gimbal frame](/assets/Frame_Prog3.png)
 
 Just one issue however. When I started building the project, the clamps I found (literally only one listing on Aliexpress) were apparently $1.5 each (I even added them to cart and went to pay just to check). Unfortunatly they're now listed at $7.50 for 2??? Meaning I need about $160AUD of clamps?
 
-Update from 2 hours later: found 1 other listing for 1.7AUD for one? Totals to $74.8 - a lot more reasonable. PCB work continues tomorrow!
+Update from later: found 1 other listing for 1.7AUD for one? Totals to $74.8 - a lot more reasonable. PCB work continues tomorrow!
+
+**Time spent: 5hrs**
 
 
 ## June 1st - Git push
