@@ -5,13 +5,20 @@ description: "A DIY Gimbal for a Full Frame Camera!"
 created_at: "2024-05-26"
 ---
 
-<!-- 
+
+## June 5th - uhhhhh
+Zoom call today! Have continued working on the BOM on LCSC for the PCBs - they'll most likely be completed this weekend. Also look there's a [README](https://github.com/ConfusedHello/DLSR-Gimbal/) now!
+
+**Time spent: 0.5hrs (for now)**
+
+
 ## June 4th - Git merge
+Spent some time searching for the components for the PCBs as well as a few other misc. components (phone mount for display, LiPo etc.) The completed BOM will be available in the [README](https://github.com/ConfusedHello/DLSR-Gimbal/).
 
-**Time spent: ** -->
+**Time spent: 3hrs**
 
 
-## June 3rd - ...
+## June 3rd...
 **Time spent: 2hrs**
 
 ## June 2nd - Git branch
