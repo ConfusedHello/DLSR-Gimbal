@@ -6,10 +6,14 @@ created_at: "2024-05-26"
 ---
 
 
+## June 6th - idle
+Not much time today. Most likely will grind the project this weekend to finish it off.
+
+
 ## June 5th - uhhhhh
 Zoom call today! Have continued working on the BOM on LCSC for the PCBs - they'll most likely be completed this weekend. Also look there's a [README](https://github.com/ConfusedHello/DLSR-Gimbal/) now!
 
-**Time spent: 0.5hrs (for now)**
+**Time spent: 1hr**
 
 
 ## June 4th - Git merge
@@ -20,6 +24,7 @@ Spent some time searching for the components for the PCBs as well as a few other
 
 ## June 3rd...
 **Time spent: 2hrs**
+
 
 ## June 2nd - Git branch
 Well today was one heck of a day! Frame is done, and it's [BOM](https://github.com/ConfusedHello/DLSR-Gimbal/blob/main/src/frame) has been roughed out! Tommorrow I'll most likely spend a little bit of time on the PCB BOMs but I don't expect too much time to go into it. Now behold, the completed frame in all it's non-rendered glory!
