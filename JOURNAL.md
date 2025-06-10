@@ -6,14 +6,16 @@ created_at: "2024-05-26"
 ---
 
 
-## June 6th - idle
-Not much time today. Most likely will grind the project this weekend to finish it off.
+[It's been a crazy last two weeks working on this project - looking forward to (hopefully) building it soon!]: # 
 
+## June 5th to June 9th - Final Prep
+A few things these last few days! Did most of the final prep for submission last Friday and today. Had the zoom call as well a few days ago! Continued working on the BOM on LCSC for the PCBs. Also look there's a [README](https://github.com/ConfusedHello/DLSR-Gimbal/) now!
 
-## June 5th - uhhhhh
-Zoom call today! Have continued working on the BOM on LCSC for the PCBs - they'll most likely be completed this weekend. Also look there's a [README](https://github.com/ConfusedHello/DLSR-Gimbal/) now!
+I've also been panelising all the PCBS (3x motor controllers, a BGC and a IMU module) into a 60mmx100mm panel (I swear this is taking ages) so I don't have to pay for 5 seperate JLC orders. PCBA is also out of the question as the amount of time it would take to properly set up all the footprints would be crazy, so I'm grabbing a stencil from JLC and will be attempting to soldier the board with a hot air rework station at school.
 
-**Time spent: 1hr**
+I feel like the finish line is close - just a few more days to finish off the panel!
+
+**Time spent: 10hrs**
 
 
 ## June 4th - Git merge
@@ -22,7 +24,7 @@ Spent some time searching for the components for the PCBs as well as a few other
 **Time spent: 3hrs**
 
 
-## June 3rd...
+## June 3rd ...
 **Time spent: 2hrs**
 
 
