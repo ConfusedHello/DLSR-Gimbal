@@ -1,8 +1,3 @@
-!!!!!
-a BOM, in CSV format in the root directory
-A BOM in table format at the end of the README
-
-
 # DSLR Gimbal
 A DIY 3-axis camera gimbal designed for full frame cameras, built as part of the Hack Club Highway to Hardware program!
 
