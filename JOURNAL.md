@@ -6,7 +6,18 @@ created_at: "2024-05-26"
 ---
 
 
-[It's been a crazy last two weeks working on this project - looking forward to (hopefully) building it soon!]: # 
+**Total time spent to date: 60hrs**
+
+
+## June 18th - Final Design Update
+Hello again - it's been a while. I've been focusing on my other project, [USB-Mic](https://highway.hackclub.com/projects/ConfusedHello/USB-Mic) recently - then I was sick for a week. Then there was the state-wide GAT (the memes are crazy).
+
+Anyways, for the final journal entry for the design, I present: THE PANEL
+![PCB](/assets/Panel.png). I will be submitting this today!
+
+It's been a crazy last few weeks working on this project - looking forward to (hopefully) building it soon!
+
+**Time spent: 8hrs**
 
 ## June 5th to June 9th - Final Prep
 A few things these last few days! Did most of the final prep for submission last Friday and today. Had the zoom call as well a few days ago! Continued working on the BOM on LCSC for the PCBs. Also look there's a [README](https://github.com/ConfusedHello/DLSR-Gimbal/) now!
@@ -148,9 +159,9 @@ So while single-handle gimbals are easier to use for phones and your standard ca
 So what do I actually need? (Hint: this is where we establish our *scope*) Personally, my camera setup without a cage weighs approximatly 1.2kg, well under the Ronin S' 3.6kg limit or the Ronin 4 Mini's 2kg limit - so a single-handle gimbal should do fine. We'll need it to handle somewhere around 2kg, so let's set that as our target.
 
 To summarise:
-- I will be desiging a 3-axis, single-handle handheld gimbal
+- I will be designing a 3-axis, single-handle handheld gimbal
 - The gimbal must support up to 2kg
 
-Tomorrow's journal will probably not be as detailed as this one, definately spent too long on it.
+Tomorrow's journal will probably not be as detailed as this one, definitely spent too long on it.
 
 **Time spent: 4hrs**
