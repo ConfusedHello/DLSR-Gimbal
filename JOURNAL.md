@@ -13,7 +13,7 @@ created_at: "2024-05-26"
 Hello again - it's been a while. I've been focusing on my other project, [USB-Mic](https://highway.hackclub.com/projects/ConfusedHello/USB-Mic) recently - then I was sick for a week. Then there was the state-wide GAT (the memes are crazy).
 
 Anyways, for the final journal entry for the design, I present: THE PANEL
-![PCB](/assets/Panel.png). I will be submitting this today!
+![PCB](https://raw.githubusercontent.com/ConfusedHello/DLSR-Gimbal/refs/heads/main/assets/Panel.png). I will be submitting this today!
 
 It's been a crazy last few weeks working on this project - looking forward to (hopefully) building it soon!
 
@@ -42,7 +42,7 @@ Spent some time searching for the components for the PCBs as well as a few other
 ## June 2nd - Git branch
 Well today was one heck of a day! Frame is done, and it's [BOM](https://github.com/ConfusedHello/DLSR-Gimbal/blob/main/src/frame) has been roughed out! Tommorrow I'll most likely spend a little bit of time on the PCB BOMs but I don't expect too much time to go into it. Now behold, the completed frame in all it's non-rendered glory!
 
-![Image of the completed gimbal frame](/assets/Frame_Prog3.png)
+![Image of the completed gimbal frame](https://raw.githubusercontent.com/ConfusedHello/DLSR-Gimbal/refs/heads/main/assets/Frame_Prog3.png)
 
 Just one issue however. When I started building the project, the clamps I found (literally only one listing on Aliexpress) were apparently $1.5 each (I even added them to cart and went to pay just to check). Unfortunatly they're now listed at $7.50 for 2??? Meaning I need about $160AUD of clamps?
 
@@ -54,7 +54,7 @@ Update from later: found 1 other listing for 1.7AUD for one? Totals to $74.8 - a
 ## June 1st - Git push
 Happy April fools! Wait no it's June... Anyways, Started off today by redoing the base mounts for the motors, I decided the double-clamp was a bit excessive even if I erred on the side of caution. I also realised, the 90° could also be easily accomplished using the same method as the motor mounts! So, after a few hours of work - the gimbal modeling is yet another step closer to being done! Also spent some time sanity-checking some carbon fibre panel/tube prices while I was at it. 
 
-![Unfinished gimbal 3d model](/assets/Frame_Prog2.png)
+![Unfinished gimbal 3d model](https://raw.githubusercontent.com/ConfusedHello/DLSR-Gimbal/refs/heads/main/assets/Frame_Prog2.png)
 
 Tomorrow will focus on the camera mouting plate (should be pretty easy) and the joint for the other side (still don't know how that'll work to be honest). In the coming days I'm planning on finalising the PCBs as well as confirming a BOM + price. Project is over going pretty well and *[I'm feeling good](https://youtu.be/oHRNrgDIJfo?t=40)!*
 
@@ -70,22 +70,22 @@ Worked on some modelling and re-thought the 90° joints. Will elaborate tomorrow
 ## May 30th - Git commit
 So much designing today! Started off by creating a quick reference model for the tube clamp I managed to find.
 
-![Tube clamp 3d model](/assets/Tube_Clamp.png)
+![Tube clamp 3d model](https://raw.githubusercontent.com/ConfusedHello/DLSR-Gimbal/refs/heads/main/assets/Tube_Clamp.png)
 
 Next I moved onto a mount for the motors, here's where I realised that the motor controller modules that were designed with the in-built encoder in mind had non-optimal placement of the plug - it was on the side of the board with the encoder. So it's time for some KiCad-ing! Here's the end result of the motor controller / encoder PCB.
 
-![Image of Motor controller PCB](/assets/Motor_Controller_KiCad.png)
+![Image of Motor controller PCB](https://raw.githubusercontent.com/ConfusedHello/DLSR-Gimbal/refs/heads/main/assets/Motor_Controller_KiCad.png)
 *More details on these boards can be found in my repo [here](https://github.com/ConfusedHello/STorM32-NT/tree/main/modules/Motor).*
 
 My next job was finishing up the design for the motor mount in Fusion360. The plates will be cut from a 3mm sheet of Carbon Fibre, allowing for a perfect distace between the magnet and the encoder (0.5-3mm).
 
-![Image of mount for the Motor controller PCB](/assets/Motor_Mount.png)
+![Image of mount for the Motor controller PCB](https://raw.githubusercontent.com/ConfusedHello/DLSR-Gimbal/refs/heads/main/assets/Motor_Mount.png)
 
 Nice! Now we have the basic component for mounting our motors to! Next, let's work on the mounting plate for the *other* side of the motor (the side that spins) and start putting a few things together!
 
 After designing a mount for both sides of the yaw motor, let's try having a quick look at what we're up to.
 
-![Image of gimbal handle](/assets/Frame_Prog1.png)
+![Image of gimbal handle](https://raw.githubusercontent.com/ConfusedHello/DLSR-Gimbal/refs/heads/main/assets/Frame_Prog1.png)
 
 Not bad for the day! Tomorrow will focus on continuing to build on the gimbal design,as well as the camera mount + IMU.
 
@@ -97,17 +97,17 @@ Finally ready to move onto some designing! After some more research I landed on 
 
 After a quick search online, I was able to find the dimensions for the motor online.
 
-![Image of the dimensions of the GM5208 gimbal motor](/assets/GM5208_12_Dimensions_Reference.png)
+![Image of the dimensions of the GM5208 gimbal motor](https://raw.githubusercontent.com/ConfusedHello/DLSR-Gimbal/refs/heads/main/assets/GM5208_12_Dimensions_Reference.png)
 
 Next I deep-dived into the [STorM32 BGC project](https://github.com/olliw42/storm32bgc/), after looking through the documentation as well as the schematics of the components I settled on the T-STorM32 architecture and created the first draft of the gimbal layout and how it would be wired up.
 
-![Draft of the gimbal design with labled components](/assets/Gimbal_Layout_Initial.png)
+![Draft of the gimbal design with labled components](https://raw.githubusercontent.com/ConfusedHello/DLSR-Gimbal/refs/heads/main/assets/Gimbal_Layout_Initial.png)
 
-![Draft of the gimbal wiring](/assets/Gimbal_Layout_Wiring_Initial.png)
+![Draft of the gimbal wiring](https://raw.githubusercontent.com/ConfusedHello/DLSR-Gimbal/refs/heads/main/assets/Gimbal_Layout_Wiring_Initial.png)
 
 After some more planning for how the motor controllers would be mounted...
 
-![Draft of the motor controller mount](/assets/Gimbal_Layout_Motor_PC_Mount_Initial.png)
+![Draft of the motor controller mount](https://raw.githubusercontent.com/ConfusedHello/DLSR-Gimbal/refs/heads/main/assets/Gimbal_Layout_Motor_PC_Mount_Initial.png)
 
 And for some quick ideas:
 - CF tubes instead of plates = cheaper
@@ -148,7 +148,7 @@ As I'm somewhat of a hobbyist photographer, I've considered the idea of building
 
 After some debate and sanity-checking my knowledge of a few DJI gimbals, we can now categorize the majority of consumer camera gimbals as either **single-handle handheld gimbals** or **two-handle handheld gimbals**. Images below, respectively.
 
-![Image with showing two different types of camera gimbals](/assets/Gimbal_Example_Forms.jpg)
+![Image with showing two different types of camera gimbals](https://raw.githubusercontent.com/ConfusedHello/DLSR-Gimbal/refs/heads/main/assets/Gimbal_Example_Forms.jpg)
 
 Now an observant individual may have realised both these form factors have one thing in common. They both stabilise the camera with 3 axis - **pitch**, **roll**, and **yaw**. Diagram by Horia Ionescu.
 
