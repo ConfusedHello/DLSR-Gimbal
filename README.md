@@ -12,7 +12,7 @@ For details about the design process, other information, check out the [developm
 The BOM for the frame is in [/src/frame/README.md](/src/frame/README.md) while the BOM for the PCBs are in [/production/BOM](https://github.com/ConfusedHello/STorM32-NT/). For simplicity, a summary has been provided at the bottom of this document.
 
 ## The Frame:
-![Frame](/assets/Frame_Prog3.png) 
+![Frame](/assets/FrameAnnotatedProfessional.png) 
 
 ## The Controller
 ![PCB](/assets/Panel.png)
