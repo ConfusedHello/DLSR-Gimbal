@@ -2,7 +2,7 @@
 title: "DLSR Gimbal"
 author: "ConfusedHello"
 description: "A DIY Gimbal for a Full Frame Camera!"
-created_at: "2024-05-26"
+created_at: "2025-05-26"
 ---
 
 
